@@ -16,25 +16,101 @@
     box-shadow: 7px 7px 15px rgb(98, 77, 28);
 }
 .logo{
-    width:30px;
-    height:30px;
+    width:70px;
+    height:70px;
     margin-top:20px;
     margin-left:40px;
     position:absolute;
 }
 .nav{
     list-style-type:none ;
-    margin-top: 20px;
-    margin-left: 190px;
+    margin-top: 30px;
+    margin-left: 250px;
     position:absolute;
-    /*display:inline;*/
-}
-.lis{
-    margin-left: 50px;
-    font-size: 15px;
     display:inline;
+    font-family: "Exo 2", sans-serif;
 }
-a{
+.nav li{
+    display:inline;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.nav li a{
     text-decoration: none;
-    color: white;
+    color:white;
 }
+.nav li a:hover{
+    text-decoration: underline;
+    color:rgb(231, 185, 79);
+}
+.heading{
+    color:white;
+    text-align:center;
+    font-size: 100px;
+    /*margin-top:100px;*/
+   font-family:'Roboto', sans-serif;
+   position:absolute;
+   top:17%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.center_pot{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    height:70%;   
+    margin-left: 160px;
+    margin-right: 10px;
+    margin-top:65px;
+    width:60%;
+}
+.less{
+    height:60px;
+    width:60px;
+    margin-left: 180px;
+    margin-right: 120px;
+}
+.inside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+}
+.content{
+    margin-top: 350px;
+    margin-right:20px;
+    margin-left:0px;
+    height:50px;
+    text-align: right;
+    color:white;
+    font-family: 'Exo 2', sans-serif;
+}
+.all{
+    display: flex;
+    justify-content: center;
+}
+.para{
+    font-size: 20px;
+    display:block;
+    margin-top: 20px;
+    height:10px;
+    width: 300px;
+}
+.our_cd{
+    color: rgb(231, 185, 79);
+}
+hr{
+    width:80px;
+    margin-right:0px;
+}
+/*.image-container{
+    display:block;
+    position:relative;
+}
+.overlay{
+    position:absolute;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}*/
